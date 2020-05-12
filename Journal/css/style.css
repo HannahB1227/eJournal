@@ -33,7 +33,7 @@ header .navbar-collapse form {
 
 .home-wrapper .card1 {
     position: absolute;
-    top: 140px;
+    top: 40px;
     left: 30%;
     width: 40%;
     box-shadow: black 5px 5px 10px;
@@ -57,12 +57,41 @@ header .navbar-collapse form {
 }
 
 .home-wrapper .btn-lg {
-    left: 45%;
-    top: 40px;
+    left: 44%;
+    top: 280px;
     position: absolute;
+}
+
+.modal-body form {
+    text-align: center;
+}
+
+.add-wrapper {
+    text-align: center;
+    background-color: darkgreen;
+}
+
+.add-wrapper h2 {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 0 10px 0;
+}
+
+.add-wrapper form {
+    width: 90%;
+    margin: auto;
+    padding: 20px 100px 40px 100px;
+    background-color: white;
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
+}
+
+@media only screen and (max-height: 875px) {
+    .home-wrapper img {
+        height: 720px;
+    }
 }
