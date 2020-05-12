@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .navbar-brand {
+    font-size: 20px;
+}
+
+header .navbar-collapse {
+    text-align: center;
+}
+
+header .navbar-collapse form {
+    justify-content: center;
+}
+
+.home-wrapper {
+    text-align: center;
+    position: relative;
+    background-color: darkgreen;
+}
+
+.home-wrapper .card1 {
+    position: absolute;
+    top: 140px;
+    left: 30%;
+    width: 40%;
+    box-shadow: black 5px 5px 10px;
+}
+
+.home-wrapper .card2 {
+    position: absolute;
+    top: 375px;
+    left: 30%;
+    width: 40%;
+    box-shadow: black 5px 5px 10px;
+}
+
+.card h5 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.home-wrapper .btn-lg {
+    left: 45%;
+    top: 40px;
+    position: absolute;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
